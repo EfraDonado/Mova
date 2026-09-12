@@ -1,0 +1,11 @@
+node_modules
+dist
+out
+release
+.DS_Store
+*.log
+apps/desktop/dist-electron
+apps/web/dist
+apps/desktop/dist
+apps/desktop/.vite
+apps/web/.vite

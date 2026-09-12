@@ -1,0 +1,20 @@
+{
+  "name": "mova",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:desktop": "npm run dev --workspace @mova/desktop",
+    "dev:web": "npm run dev --workspace @mova/web",
+    "build:desktop": "npm run build --workspace @mova/desktop",
+    "build:web": "npm run build --workspace @mova/web",
+    "build": "npm run build:desktop && npm run build:web",
+    "package:desktop": "npm run dist --workspace @mova/desktop"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
