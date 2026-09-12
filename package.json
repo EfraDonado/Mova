@@ -15,6 +15,7 @@
     "package:desktop": "npm run dist --workspace @mova/desktop"
   },
   "devDependencies": {
-    "concurrently": "^9.1.2"
+    "concurrently": "^9.1.2",
+    "electron": "^44.3.0"
   }
 }
